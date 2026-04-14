@@ -83,7 +83,7 @@ export default function Home() {
                 label: 'Stop Selling,\nLet Them Buy',
                 title: 'Stop Selling. Let Them Buy.',
                 sub: 'The Definitive Edition',
-                body: 'The complete framework — from a Cape Town orphanage to the boardroom. Forty years of figuring out that the pitch is the problem, not the solution.',
+                body: 'The complete framework — from a Cape Town orphanage to the boardroom. Forty years of figuring out that the pressure is the problem, not the solution.',
               },
               {
                 href: '/books/translation-problem',
@@ -183,7 +183,7 @@ export default function Home() {
               Three-time founder. Forty years in sales. Two books on why people buy.
             </h2>
             <p style={{ fontSize: '1.05rem', lineHeight: 1.8, color: 'var(--ink-soft)', marginBottom: '1.5rem', fontWeight: 400 }}>
-              Philip Vivier started selling in 1976 — watchstraps on construction sites in Cape Town, South Africa. He went on to build and sell his own company, lead organizations to national scale, and spend four decades figuring out that the most effective sales tool isn't a better pitch. It's a better understanding of people.
+              Philip Vivier started selling in 1976 — watchstraps on construction sites in Cape Town, South Africa. He went on to build and sell his own company, lead organizations to national scale, and spend four decades figuring out that the most effective sales tool isn't a better script. It's a better understanding of people.
             </p>
             <Link href="/about" className="btn-primary">Full Story</Link>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: '1.5rem', paddingTop: '2rem', marginTop: '2rem', borderTop: '1px solid var(--border)' }}>
@@ -207,7 +207,7 @@ export default function Home() {
           </h2>
           <div>
             <p style={{ fontSize: '1.05rem', lineHeight: 1.8, color: 'var(--ink-soft)', marginBottom: '2rem', fontWeight: 400 }}>
-              Whether you're planning a sales workshop, preparing for a key presentation, or curious whether any of this applies to your team — reach out. No pitch. No pressure.
+              Whether you're planning a sales workshop, preparing for a key meeting, or curious whether any of this applies to your team — reach out. No pressure.
             </p>
             <Link href="/contact" className="btn-primary">Get in Touch</Link>
           </div>

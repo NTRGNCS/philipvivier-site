@@ -17,7 +17,7 @@ export default function Contact() {
     <>
       <Head>
         <title>Contact — Philip Vivier</title>
-        <meta name="description" content="Get in touch with Philip Vivier. No pitch, no pressure." />
+        <meta name="description" content="Get in touch with Philip Vivier. No pressure." />
       </Head>
       <Nav />
       <main className="page-wrap">
@@ -31,14 +31,14 @@ export default function Contact() {
               Let's have a<br /><em style={{ color: 'var(--warm)' }}>real conversation.</em>
             </h1>
             <p style={{ fontSize: '1rem', lineHeight: 1.8, color: 'var(--ink-soft)', marginBottom: '3rem' }}>
-              Whether you're prepping for a pitch, planning a sales workshop, curious about the books, or just want to explore whether any of this applies to your team — reach out. No pitch. No pressure.
+              Whether you're preparing for a key meeting, planning a sales workshop, curious about the books, or just want to explore whether any of this applies to your team — reach out. No pressure.
             </p>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
               {[
                 { label: 'For coaching enquiries', value: 'Use the form →' },
                 { label: 'For consulting & workshops', value: 'Use the form →' },
                 { label: 'For speaking engagements', value: 'Use the form →' },
-                { label: 'Email directly', value: 'philip@philipvivier.com' },
+                { label: 'Email directly', value: 'pv@philipvivier.com' },
               ].map(item => (
                 <div key={item.label}>
                   <p style={{ fontSize: '0.7rem', fontWeight: 500, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--ink-muted)', marginBottom: '0.25rem' }}>{item.label}</p>

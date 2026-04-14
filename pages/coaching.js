@@ -73,7 +73,7 @@ export default function Coaching() {
               Not sure where to start?
             </h2>
             <p style={{ fontSize: '0.95rem', lineHeight: 1.8, color: 'var(--ink-soft)' }}>
-              Book a free fifteen-minute discovery call. No pitch. We'll figure out together whether coaching, consulting, or just the books makes the most sense for where you are right now.
+              Book a free fifteen-minute discovery call.  We'll figure out together whether coaching, consulting, or just the books makes the most sense for where you are right now.
             </p>
           </div>
           <div>

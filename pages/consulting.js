@@ -44,7 +44,7 @@ export default function Consulting() {
               Before your next key prospect meeting, I help decode buyer personalities and tailor communication approaches — bringing Let Them Buy principles into live, high-stakes conversations so your biggest opportunities don't slip away.
             </p>
             <p style={{ fontSize: '0.95rem', lineHeight: 1.8, color: 'var(--ink-soft)', marginBottom: '2rem' }}>
-              One session before a major pitch can change the entire outcome.
+              One session before a major meeting can change the entire outcome.
             </p>
             <Link href="/contact" className="btn-secondary">Enquire About Presentation Support</Link>
           </div>
