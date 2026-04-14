@@ -40,9 +40,7 @@ export default function Home() {
             </div>
           </div>
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '3rem', background: 'var(--warm-bg)' }}>
-            <div style={{ width: '100%', maxWidth: '420px', aspectRatio: '4/5', background: 'linear-gradient(160deg,#D4B9A8 0%,#C4A898 100%)', borderRadius: '4px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-              <span className="cormorant" style={{ fontSize: '1rem', color: 'rgba(26,24,20,0.4)', fontStyle: 'italic' }}>Add your photo here</span>
-            </div>
+            <img src="/Philip_photo.jpg" alt="Philip Vivier" style={{ width: '100%', maxWidth: '340px', borderRadius: '4px', display: 'block', filter: 'grayscale(100%) contrast(1.05)' }} />
           </div>
         </section>
 
@@ -169,8 +167,8 @@ export default function Home() {
               ))}
             </div>
           </div>
-          <div style={{ aspectRatio: '4/5', background: 'linear-gradient(145deg,var(--warm-bg) 0%,var(--warm-light) 100%)', borderRadius: '4px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: 'Cormorant Garamond, serif', color: 'rgba(26,24,20,0.3)', fontStyle: 'italic' }}>
-            Add your photo here
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <img src="/Philip_photo.jpg" alt="Philip Vivier" style={{ width: '100%', maxWidth: '380px', borderRadius: '4px', display: 'block', filter: 'grayscale(100%) contrast(1.05)' }} />
           </div>
         </section>
 
