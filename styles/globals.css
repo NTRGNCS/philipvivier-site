@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=DM+Sans:wght@400;500;600;700&display=swap');
 
 :root {
   --cream: #F5F1EA;
-  --ink: #1A1814;
-  --ink-soft: #2E2B27;
-  --ink-muted: #7A7570;
-  --warm: #8B3A2A;
-  --warm-light: #D4B9A8;
+  --ink: #141210;
+  --ink-soft: #2A2724;
+  --ink-muted: #6B6560;
+  --warm: #E05A2B;
+  --warm-light: #F0C4A8;
   --warm-bg: #EDE0D4;
-  --border: rgba(26,24,20,0.14);
+  --border: rgba(20,18,16,0.12);
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -19,7 +19,7 @@ body {
   color: var(--ink);
   font-family: 'DM Sans', sans-serif;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 18px;
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
 }
@@ -40,7 +40,6 @@ nav {
   height: 44px;
   width: auto;
   mix-blend-mode: multiply;
-  filter: contrast(1.1);
 }
 
 .nav-links {
@@ -52,7 +51,7 @@ nav {
 
 .nav-links a {
   font-size: 0.8rem;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--ink-soft);
@@ -63,16 +62,14 @@ nav {
 .nav-links a:hover { color: var(--warm); }
 
 .nav-cta {
-  font-size: 0.75rem !important;
-  font-weight: 600 !important;
   color: var(--cream) !important;
-  background: var(--ink);
+  background: var(--warm) !important;
   padding: 0.6rem 1.4rem;
   border-radius: 2px;
-  transition: background 0.2s !important;
+  transition: opacity 0.2s !important;
 }
 
-.nav-cta:hover { background: var(--warm) !important; }
+.nav-cta:hover { opacity: 0.85 !important; }
 
 footer {
   padding: 2rem 3rem;
@@ -97,6 +94,7 @@ footer {
 
 .footer-links a {
   font-size: 0.75rem;
+  font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--ink-muted);
@@ -105,17 +103,17 @@ footer {
 }
 
 .footer-links a:hover { color: var(--warm); }
-.footer-copy { font-size: 0.75rem; color: var(--ink-muted); }
+.footer-copy { font-size: 0.78rem; color: var(--ink-muted); font-weight: 500; }
 
 .btn-primary {
   display: inline-block;
-  font-size: 0.8rem;
-  font-weight: 600;
-  letter-spacing: 0.1em;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--cream);
   background: var(--ink);
-  padding: 0.9rem 2rem;
+  padding: 1rem 2.25rem;
   border-radius: 2px;
   text-decoration: none;
   border: none;
@@ -128,13 +126,13 @@ footer {
 
 .btn-secondary {
   display: inline-block;
-  font-size: 0.8rem;
-  font-weight: 500;
-  letter-spacing: 0.1em;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--ink);
-  border: 1.5px solid var(--ink);
-  padding: 0.9rem 2rem;
+  border: 2px solid var(--ink);
+  padding: 1rem 2.25rem;
   border-radius: 2px;
   text-decoration: none;
   cursor: pointer;
@@ -147,13 +145,13 @@ footer {
 
 .btn-warm {
   display: inline-block;
-  font-size: 0.8rem;
-  font-weight: 600;
-  letter-spacing: 0.1em;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--cream);
   background: var(--warm);
-  padding: 0.9rem 2rem;
+  padding: 1rem 2.25rem;
   border-radius: 2px;
   text-decoration: none;
   border: none;
@@ -167,8 +165,8 @@ footer {
 .page-wrap { padding-top: 5rem; min-height: 100vh; }
 
 .section-label {
-  font-size: 0.72rem;
-  font-weight: 600;
+  font-size: 0.75rem;
+  font-weight: 700;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--warm);
@@ -178,7 +176,7 @@ footer {
 
 .cormorant {
   font-family: 'Cormorant Garamond', serif;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .fade-in {
@@ -194,32 +192,32 @@ footer {
 
 .badge {
   display: inline-block;
-  font-size: 0.65rem;
-  font-weight: 600;
+  font-size: 0.68rem;
+  font-weight: 700;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--warm);
-  border: 1.5px solid var(--warm);
-  padding: 0.2rem 0.6rem;
+  border: 2px solid var(--warm);
+  padding: 0.25rem 0.7rem;
   border-radius: 2px;
   margin-bottom: 1rem;
 }
 
 .form-input {
   width: 100%;
-  padding: 0.85rem 1rem;
-  border: 1.5px solid var(--border);
+  padding: 0.9rem 1rem;
+  border: 2px solid var(--border);
   border-radius: 2px;
   background: transparent;
   font-family: 'DM Sans', sans-serif;
-  font-size: 0.95rem;
+  font-size: 1rem;
   font-weight: 400;
   color: var(--ink);
   outline: none;
   transition: border-color 0.2s;
 }
 
-.form-input:focus { border-color: var(--ink); }
+.form-input:focus { border-color: var(--warm); }
 .form-input::placeholder { color: var(--ink-muted); }
 
 @media (max-width: 768px) {
